@@ -1,0 +1,147 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  box-sizing: border-box;
+  font-family: "Montserrat", "sans-serif";
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+  font-family: "Montserrat", "sans-serif";
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: none;
+}
+
+.title {
+  color: #252B42;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+  text-align: center;
+}
+
+@media (max-width: 414px) {
+  .title {
+    width: 180px;
+    margin: auto;
+  }
+}
+
+.description {
+  color: #737373;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  width: 470px;
+  margin: 10px auto;
+}
+
+@media (max-width: 414px) {
+  .description {
+    width: 225px;
+  }
+}
+
+.container {
+  width: 1050px;
+  margin: auto;
+}
+
+@media (max-width: 414px) {
+  .container {
+    width: 414px;
+  }
+}
+
+.practice__cards {
+  display: grid;
+  grid-template-columns: repeat(4, 230px);
+  gap: 40px;
+  margin-top: 45px;
+}
+
+@media (max-width: 414px) {
+  .practice__cards {
+    grid-template-columns: 1fr;
+    gap: 30px;
+    margin: 75px auto;
+    width: 230px;
+  }
+}
+
+.practice__item {
+  width: 230px;
+  height: 342px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #FFA62B;
+}
+
+.practice__item-title {
+  color: #252B42;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  padding: 30px 30px 15px 30px;
+}
+
+.practice__item-text {
+  color: #737373;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  padding: 0px 30px 30px 30px;
+}
