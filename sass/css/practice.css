@@ -1,0 +1,11 @@
+.practice__cards {
+  display: grid;
+  grid-template-columns: repeat(4, 230px);
+  gap: 40px 45px;
+  margin-top: 45px;
+}
+
+.practice__item {
+  width: 230px;
+  height: 342px;
+}

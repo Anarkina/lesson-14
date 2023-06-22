@@ -1,0 +1,33 @@
+@import './vars.scss';
+.title{
+    color: $bold__color;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    @media (max-width:414px){
+        width:  180px;
+        margin: auto;
+    }
+}
+.description{
+    color: $seco__color;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    width: 470px;
+    margin: 10px auto;
+    @media (max-width:414px){
+        width:  225px;
+    }
+}
+.container{
+    width: 1050px;
+    margin: auto;
+    @media (max-width:414px){
+        width:  414px;
+    }
+}
